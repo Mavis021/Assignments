@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1624765584 source:c:\users\user\onedrive\desktop\lab_5\one.c
+	<conio.h>
+	<conio.h>
+
+1624765995 source:c:\users\user\onedrive\desktop\lab_5\two.c
+	<conio.h>
+
+1624767698 source:c:\users\user\onedrive\desktop\lab_5\three.c
+	<conio.h>
+
+1624773612 source:c:\users\user\onedrive\desktop\lab_5\four.c
+	<conio.h>
+
+1624948129 source:c:\users\user\onedrive\desktop\lab_5\class.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1625221685 source:c:\users\user\onedrive\desktop\lab_5\class2.c
+	<conio.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1625221161 source:c:\users\user\onedrive\desktop\lab_5\lab_6.c
+
+1625222574 source:c:\users\user\onedrive\desktop\lab_5\five.c
+	<conio.h>
+
+1625224629 source:c:\users\user\onedrive\desktop\lab_5\six.c
+	<conio.h>
+	<math.h>
+
+1625226247 source:c:\users\user\onedrive\desktop\lab_5\seven.c
+	<conio.h>
+
+1625233734 source:c:\users\user\onedrive\desktop\lab_5\eight.c
+	<conio.h>
+
+1625236233 source:c:\users\user\onedrive\desktop\lab_5\nine.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1625236331 source:c:\users\user\onedrive\desktop\lab_5\ten.c
+	<conio.h>
+
+1624948129 source:c:\users\user\onedrive\desktop\report\lab_5\class.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1625221685 source:c:\users\user\onedrive\desktop\report\lab_5\class2.c
+	<conio.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1625936007 source:c:\users\user\onedrive\desktop\report\lab_5\eight.c
+	<conio.h>
+
+1625932661 source:c:\users\user\onedrive\desktop\report\lab_5\five.c
+	<conio.h>
+
+1625928572 source:c:\users\user\onedrive\desktop\report\lab_5\four.c
+	<conio.h>
+
+1625221161 source:c:\users\user\onedrive\desktop\report\lab_5\lab_6.c
+
+1626094532 source:c:\users\user\onedrive\desktop\report\lab_5\nine.c
+	<conio.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+
+1625934299 source:c:\users\user\onedrive\desktop\report\lab_5\seven.c
+	<conio.h>
+
+1625934107 source:c:\users\user\onedrive\desktop\report\lab_5\six.c
+	<conio.h>
+	<math.h>
+
+1625236331 source:c:\users\user\onedrive\desktop\report\lab_5\ten.c
+	<conio.h>
+
+1625907763 source:c:\users\user\onedrive\desktop\report\lab_5\three.c
+	<conio.h>
+
+1625904788 source:c:\users\user\onedrive\desktop\report\lab_5\two.c
+	<conio.h>
+
+1625901215 source:c:\users\user\onedrive\desktop\report\lab_5\one.c
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+

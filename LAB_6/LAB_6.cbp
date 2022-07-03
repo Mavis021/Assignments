@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LAB_6" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LAB_6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LAB_6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="7ten.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="class.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="class2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="five.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="four.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="one.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seven.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="six.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="three.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="two.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

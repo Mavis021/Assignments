@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1625292441 source:c:\users\user\onedrive\desktop\lab_6\one.c
+	<conio.h>
+
+1625292545 source:c:\users\user\onedrive\desktop\lab_6\two.c
+	<conio.h>
+
+1625363183 source:c:\users\user\onedrive\desktop\lab_6\three.c
+	<stdio.h>
+	<conio.h>
+	<math.h>
+
+1626325389 source:c:\users\user\onedrive\desktop\report\lab_6\one.c
+	<conio.h>
+
+1626325782 source:c:\users\user\onedrive\desktop\report\lab_6\two.c
+	<conio.h>
+
+1626326022 source:c:\users\user\onedrive\desktop\report\lab_6\three.c
+	<conio.h>
+
+1625558359 source:c:\users\user\onedrive\desktop\report\lab_6\class.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1626368943 source:c:\users\user\onedrive\desktop\report\lab_6\four.c
+	<conio.h>
+
+1626369763 source:c:\users\user\onedrive\desktop\report\lab_6\five.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1626414755 source:c:\users\user\onedrive\desktop\report\lab_6\six.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1625621768 source:c:\users\user\onedrive\desktop\report\lab_6\recursive.c
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+
+1626415205 source:c:\users\user\onedrive\desktop\report\lab_6\seven.c
+	<conio.h>
+	<math.h>
+
+1626417314 source:c:\users\user\onedrive\desktop\report\lab_6\eight.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1626153234 source:c:\users\user\onedrive\desktop\report\lab_6\class2.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1626087896 source:c:\users\user\onedrive\desktop\report\lab_6\7ten.c
+
+1626087896 source:d:\report\lab_6\7ten.c
+
+1625558359 source:d:\report\lab_6\class.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1626153234 source:d:\report\lab_6\class2.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+
+1630744139 source:d:\report\lab_6\eight.c
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+
+1626369763 source:d:\report\lab_6\five.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1626368943 source:d:\report\lab_6\four.c
+	<conio.h>
+
+1626325389 source:d:\report\lab_6\one.c
+	<conio.h>
+
+1625621768 source:d:\report\lab_6\recursive.c
+	<conio.h>
+	<stdio.h>
+	<conio.h>
+
+1626415205 source:d:\report\lab_6\seven.c
+	<conio.h>
+	<math.h>
+
+1626414755 source:d:\report\lab_6\six.c
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+	<conio.h>
+	<math.h>
+
+1626326022 source:d:\report\lab_6\three.c
+	<conio.h>
+
+1626325782 source:d:\report\lab_6\two.c
+	<conio.h>
+
