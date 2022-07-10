@@ -97,7 +97,7 @@ int main()
 	Date d1(2000,2,28), d2(1999,3,31),postfixTest;
 	
 	d1.showData();
-	d1.showData();
+	d2.showData();
 	++d1;
 	postfixTest = d2++;
 	
