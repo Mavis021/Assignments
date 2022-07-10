@@ -24,21 +24,44 @@ using namespace std;
 
 class Musicians
 {
+protected:
+	string baseString[5], baseWind[5], basePerc[4];
 public:
-	string baseString[4] = { "veena","guitar","sitar","sarodand mandolin" };
-	string baseWind[4] = { "flute","clarinet saxophone","nadhaswaram","piccolo"};
-	string basePerc[4] = {"tabla","mridangam","bangos","drumsand tambour"};
+	void String()
+	{
+		//baseString data
+		baseString[0] = "veena";
+		baseString[1] = "guitar";
+		baseString[2] = "sitar";
+		baseString[3] = "sarodand mandolin";
+	}
+	void Wind()
+	{
+		//Wind data
+		baseWind[0] = "flute";
+		baseWind[1] = "clarinet saxophone";
+		baseWind[2] = "nadhaswaram";
+		baseWind[3] = "piccolo";
+	}
+	void Perc()
+	{
+		//Perc data
+		basePerc[0] = "tabla";
+		basePerc[1] = "mridangam";
+		basePerc[2] = "bangos";
+		basePerc[3] = "drumsand tambour";
+	}
 };
 
-class TypeIns : public Musicians
+class TypeIns :protected Musicians
 {
 public:
 	void get()
 	{
 		cout << "Type of instruments to be displayed" << endl
-			 << "a.String instruments" << endl 
-			 << "b.Wind instruments" << endl
-			 << "c.Percussion instruments" << endl;
+			<< "a.String instruments" << endl
+			<< "b.Wind instruments" << endl
+			<< "c.Percussion instruments" << endl;
 	}
 	void show(char ch)
 	{
@@ -46,27 +69,30 @@ public:
 		{
 		case 'a':
 		{
+			Musicians::String();
 			for (int i = 0; i < 4; i++)
 			{
-				cout << baseString[i] << ",";
+				cout << Musicians::baseString[i] << ",";
 			}
 			cout << endl;
 			break;
 		}
 		case 'b':
 		{
+			Musicians::Wind();
 			for (int i = 0; i < 4; i++)
 			{
-				cout << baseWind[i] << ",";
+				cout << Musicians::baseWind[i] << ",";
 			}
 			cout << endl;
 			break;
 		}
 		case 'c':
 		{
+			Musicians::Perc();
 			for (int i = 0; i < 4; i++)
 			{
-				cout << basePerc[i] << ",";
+				cout << Musicians::basePerc[i] << ",";
 			}
 			cout << endl;
 			break;
