@@ -8,8 +8,9 @@ using namespace std;
 
 class base
 {
-public:
+protected:
 	int real, imaginary;
+public:
 	base(int re = 0, int im = 0)
 	{
 		real = re;
@@ -17,17 +18,17 @@ public:
 	}
 	void getData()
 	{
-		cout << "ENTER THE REAL AND IMAGINARY PART: ";
+		cout << "ENTER THE REAL AND IMAGINARY PART FOR BASE CLASS: ";
 		cin >> real >> imaginary;
 	}
 	void showData()
 	{
-		cout <<"BASE CLASS: "<< "("<<real << "," << imaginary << ")" << endl;
+		cout << "BASE CLASS: " << "(" << real << "," << imaginary << ")" << endl;
 	}
 };
 
 class friend1;
-class derived: base
+class derived :public base
 {
 private:
 	int real, imaginary;
@@ -37,64 +38,62 @@ public:
 		real = re;
 		imaginary = im;
 	}
-	int returnBaseReal()
+	void getData()
 	{
-		return base::real;
+		base::getData();
+		cout << endl << "ENTER THE SAME FOR DERIVED CLASS: ";
+		cin >> real >> imaginary;
 	}
-	int returnBaseimag()
+	void addwithbase()
 	{
-		return base::imaginary;
-	}
-	void addwithbase(base b)
-	{
-		cout << "ADDITION: " << "(" << (real + b.real)<< "," << (imaginary + b.imaginary) << ")" << endl;
+		cout << endl << "ADDITION: ( " << base::real + real << " , " << base::imaginary + imaginary << " <<endl)";
 	}
 	void showData()
 	{
-		cout <<"DERIVED: "<< "(" << real << "," << imaginary << ")" << endl;
+		base::showData();
+		cout << "DERIVED CLASS: " << "(" << real << "," << imaginary << ")" << endl;
 	}
-	friend class derived2;
+	friend class friend1;
 };
 
 class friend1
 {
 private:
-	int real, imaginary;
+	int freal, fimaginary;
 public:
 	friend1(int re = 0, int im = 0)
 	{
-		real = re;
-		imaginary = im;
+		freal = re;
+		fimaginary = im;
 	}
 	void getData()
 	{
 		cout << "ENTER THE REAL AND IMAGINARY PART: ";
-		cin >> real >> imaginary;
+		cin >> freal >> fimaginary;
 	}
-	void subtractwithbase(base b)
+	void subtractwithbase(derived d)
 	{
-		cout << "SUBTRACTTION: " << "(" << (real - b.real) << "," << (imaginary - b.imaginary) << ")" << endl;
+		cout << "SUBTRACTTION: " << "(" << (freal - d.base::real) << "," << (fimaginary - d.base::imaginary) << ")" << endl;
 	}
 	void showData()
 	{
-		cout <<"FRIEND"<< "(" << real << "," << imaginary << ")" << endl;
+		cout << "FRIEND" << "(" << freal << "," << fimaginary << ")" << endl;
 	}
-	friend class derived2;
 };
 
 int main()
 {
-	base b(2, 3);
+	base b;
 	derived d(3, 4);
 	friend1 f(4, 5);
-	
-	b.showData();
+
+	d.base::getData();
 	d.showData();
 	f.showData();
 
-	d.addwithbase(b);
+	d.addwithbase();
 
-	f.subtractwithbase(b);
+	f.subtractwithbase(d);
 
 	return 0;
 }
