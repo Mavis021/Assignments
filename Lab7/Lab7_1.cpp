@@ -96,20 +96,25 @@ public:
 
 int main()
 {
+	shape* ptr ;
 	circle c(2);
 	rectangle rec(2,3);
 	trapezoid trap(4,5,2);
 
-	//shape* ptr = new shape[3];
-	//ptr[0] = shape(&c);
+	ptr = new circle(2.2);
+		ptr->Area();
+		ptr->display();
+	delete ptr;
 
-	shape* ptr[] = { &c,&rec,&trap };
-	for (int i = 0; i < 3; i++)
-	{
-		ptr[i]->Area();
-		ptr[i]->display();
-	}
+	ptr= new rectangle(2,3);
+	    ptr->Area();
+		ptr->display();
+	delete ptr;
 
-	/*delete[]ptr;*/
+	ptr= new trapezoid(2,3,4);
+	    ptr->Area();
+		ptr->display();
+	delete ptr;
+
 	return 0;
 }
