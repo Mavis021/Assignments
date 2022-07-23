@@ -10,7 +10,7 @@ using namespace std;
 
 class people
 {
-private:
+protected:
 	string name;
 	int age;
 public:
@@ -30,7 +30,7 @@ public:
 	}
 };
 
-class student:people
+class student : public people
 {
 private:
 	string studentID;
@@ -38,8 +38,8 @@ private:
 public:
 	void getData()
 	{
-	people::enterName();
-	people::enterAge();
+		people::enterName();
+		people::enterAge();
 		cout << "ENTER YOUR STUDENTSID: ";
 		cin >> studentID;
 	}
@@ -48,14 +48,9 @@ public:
 		cout << "ENTER YOUR SECTION: ";
 		cin >> section;
 	}
-	void printAddress()
-	{
-		cout << "Address: " << this << endl;
-	}
-
 };
 
-class employee :people
+class employee :public people
 {
 private:
 	string employeeID;
@@ -70,11 +65,6 @@ public:
 		cout << "ENTER YOUR SALARY: ";
 		cin >> salary;
 	}
-	void printAddress()
-	{
-		cout << "Address: " << this << endl;
-	}
-
 };
 
 int main()
