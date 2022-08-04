@@ -12,8 +12,8 @@ using namespace std;
 class Sales
 {
 private:
-	int *cost,num;
-	string *productName;
+	int* cost, num;
+	string* productName;
 public:
 	Sales()
 	{
@@ -30,6 +30,7 @@ public:
 	}
 	~Sales()
 	{
+		cout << endl << "destructor called" << endl;
 		delete[]cost;
 		delete[]productName;
 	}
@@ -38,7 +39,7 @@ public:
 	{
 		for (int i = 0; i < num; i++)
 		{
-			cout <<"PRODUCT "<<i+1<<": "<<endl<< "Product Name: ";
+			cout << "PRODUCT " << i + 1 << ": " << endl << "Product Name: ";
 			cin >> productName[i];
 			cout << "Cost Price: ";
 			cin >> cost[i];
@@ -46,26 +47,26 @@ public:
 	}
 	void showData()
 	{
-		int total=0;
+		int total = 0;
 		cout.width(50);
 		cout << endl << "MOMO DEPARTMENT STORE INVOICE: " << endl;
 		cout.setf(ios::right, ios::adjustfield);
-		cout << " S.N"<<setw(20)<<"PRODUCT NAME"<<setw(20)<<"COST"<<setw(20)<<"DISCOUNTED PRICE" << endl;
+		cout << " S.N" << setw(20) << "PRODUCT NAME" << setw(20) << "COST" << setw(20) << "DISCOUNTED PRICE" << endl;
 		for (int i = 0; i < num; i++)
 		{
-			
+
 			cout.width(4);
 			cout.fill(' ');
 			cout << i + 1;
 			cout.width(20);
 			cout << productName[i];
 			cout.width(20);
-			cout <<cost[i]<<setw(20)<<(cost[i]*0.9);
+			cout << cost[i] << setw(20) << (cost[i] * 0.9);
 			cout << endl;
 			total += (cost[i] * 0.9);
 		}
 		cout.width(55);
-		cout << "TOTAL: " << setw(9) << total;
+		cout << "TOTAL: " << setw(9) << total << endl;
 	}
 
 };
@@ -79,8 +80,9 @@ int main()
 	Sales s(n);
 
 	s.getData();
-	system("cls");
+	system("cls");  //clearing the console
 	s.showData();
+	system("pause");
 
 	return 0;
 }
