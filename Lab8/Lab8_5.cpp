@@ -9,10 +9,9 @@
 #include<fstream>
 using namespace std;
 
-struct transaction
+class transaction
 {
 private:
-    //static int recNum[];
     unsigned accountNumber, totalBalance;
     string lastName, firstName;
 public:
@@ -80,7 +79,6 @@ void transaction:: addToFile(string fileN)
 
     for (int i = 0; i < size; i++)
     {
-        //recNum = i + 1;
         cout << endl << "ACCOUNT " << i + 1 << endl;
         this->getData();
         file.write(reinterpret_cast<const char*>(this),sizeof(*this));
@@ -100,17 +98,17 @@ void transaction::updateInFile(string fileN)
     size = readFromFile(fileN);
     //delete
     fstream file;
-    cout << endl << "ENTER THE RECORD NUMBER YOU  WANT TO DELETE: ";
+    cout << endl << "ENTER THE RECORD NUMBER YOU  WANT TO MODIFY: ";
     cin >> n;
     
-    file.open(fileN, ios::out|ios::in|ios::binary);
+    file.open(fileN, ios::out|ios::binary);
     if (file.fail())
     {
         cout << "could't open the file. exiting....";
         exit(1);
     }
-    file.seekg((n - 1) * sizeof(*this));
-    cout << "ENTER THE DATA MODIFIED DATA: ";
+    file.seekp((n - 1) * sizeof(*this));
+    cout << "ENTER THE DATA MODIFIED DATA: "<<endl;
     this->getData();
     file.write(reinterpret_cast<const char*>(this),  sizeof(*this));
     file.close();
@@ -227,4 +225,3 @@ int main()
 
     return 0;
 }
-
