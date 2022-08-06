@@ -40,7 +40,7 @@ void writeToFile(string fileN)
     cout << "ENTER THE NUMBER OF STUDENTS YOU WANT TO REGISTER: ";
     cin >> size;
 
-    system("clear");
+    system("cls");
     s = new student[size];
 
     ofstream file;
@@ -65,7 +65,7 @@ void readFromFile(string fileN)
     int size;
     student* s;
     
-    cout << "DATA FROM THE FILE: ";
+    cout <<endl<< "DATA FROM THE FILE: ";
 
     ifstream file;
     file.open(fileN, ios::binary|ios::ate);
