@@ -1,5 +1,6 @@
 //A program in cpp to evaluate postfix expression
-//125342/-^*6*+5-
+//1,2,5,3,4,2,/,-,^,*,6,*,+,5,-
+//5,6,2,+,*,12,4,/,-
 #include<iostream>
 #include<cstdlib>
 
@@ -41,6 +42,7 @@ class Evaluate
 {
 private:
 	Stack s;
+	char temp[5];
 	std::string expression;
 	float num;
 
@@ -54,7 +56,6 @@ public:
 	~Evaluate()
 	{
 	}
-
 
 	bool operatorCheck(char ch)
 	{
@@ -73,16 +74,16 @@ public:
 			return (op2 + op1);
 			break;
 		case'-':
-			return (op2-op1);
+			return (op2 - op1);
 			break;
 		case '*':
-			return (op2*op1);
+			return (op2 * op1);
 			break;
 		case '/':
-			return (op2/op1);
+			return (op2 / op1);
 			break;
 		case '^':
-			return (pow(op2,op1));
+			return (pow(op2, op1));
 			break;
 		default:
 			return 0;
@@ -95,20 +96,38 @@ public:
 		for (int i = 0; i < expression.length(); i++)
 		{
 			char ch = expression[i];
-			
+
 			if (operatorCheck(ch))
 			{
 				num = calc(ch);
 				s.PUSH(num);
 			}
-			else
+			else if (ch != ',')
 			{
-				s.PUSH(ch - '0');
+				int multiplier = 1, number = 0, k;
+
+				for (k = 0; (ch >= '0' && ch <= '9'); k++)
+				{
+					temp[k] = ch;
+					i++;
+					ch = expression[i];
+				}
+
+				for (int j = k - 1; j >= 0; --j)
+				{
+					number += multiplier * (temp[j] - '0');
+					multiplier *= 10;
+				}
+				num = number;
+
+				s.PUSH(num);
 			}
+			else
+				continue;
 		}
 
 		num = s.POP();
-		std::cout << std::endl << "THE EVALUATED RESULT: " <<num << std::endl;
+		std::cout << std::endl << "THE EVALUATED RESULT: " << num << std::endl;
 	}
 };
 
@@ -119,3 +138,4 @@ int main()
 	system("pause");
 	return 0;
 }
+
