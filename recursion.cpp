@@ -63,7 +63,7 @@ public:
 		static int i = 0;
 		c = b;
 		b = a;
-		if (i ==( n+1))
+		if (i ==( n-1))
 			return a;
 		else
 		{
@@ -97,7 +97,7 @@ public:
 		 static int i = 0;
 		 c = b;
 		 b = a;
-		 if (i == (n + 1))
+		 if (i == (n - 1))
 			 cout<<"The "<<n<<"th Fibonacci number is "<<a;
 		 else
 		 {
