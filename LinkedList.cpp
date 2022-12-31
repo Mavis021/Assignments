@@ -13,7 +13,7 @@ struct node
 class LinkedList
 {
     private:
-    node *newNode,*start,*preptr,*ptr,*temp;
+    node *newNode,*start,*preptr,*ptr;
     int i;
 
     public:
