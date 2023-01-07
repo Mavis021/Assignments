@@ -41,7 +41,7 @@ public:
 
 		for (j = 0; j < n ; j++)
 		{
-			if ((*(data + j + (n + 1) * j)) <= 0.00005)
+			if (abs(*(data + j + (n + 1) * j)) <= 0.00005)
 			{
 				cout << "ERROR!";
 				exit(1);
@@ -70,7 +70,7 @@ public:
 
 		for (j = 0; j < n; j++)
 		{
-			if ((*(data + j + (n + 1) * j)) <= 0.00005)
+			if (abs(*(data + j + (n + 1) * j)) <= 0.00005)
 			{
 				cout << "ERROR!";
 				exit(1);
