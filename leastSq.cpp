@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 #include<cmath>
+#include<cassert>
 
 using namespace std;
 
@@ -40,6 +41,7 @@ public:
 	}
 	void makeAugMat()
 	{
+		assert(0<d && d<n);
 		cout << "\n THE AUGMENTED MATRIX: \n"<<setw(4);
 		for (int i = 0; i < d+1 ; i++)
 		{
