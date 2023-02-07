@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1629363558 source:c:\users\user\onedrive\desktop\report\lab_12\one.c
+	<conio.h>
+	<stdlib.h>
+
+1629378427 source:c:\users\user\onedrive\desktop\report\lab_12\two.c
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1629382073 source:c:\users\user\onedrive\desktop\report\lab_12\three.c
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1629384247 source:c:\users\user\onedrive\desktop\report\lab_12\four.c
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1629387392 source:c:\users\user\onedrive\desktop\report\lab_12\five.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+

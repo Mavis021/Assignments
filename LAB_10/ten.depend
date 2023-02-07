@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1628784394 source:c:\users\user\onedrive\desktop\report\ten\one.c
+
+1628790103 source:c:\users\user\onedrive\desktop\report\ten\three.c
+	<conio.h>
+
+1628786874 source:c:\users\user\onedrive\desktop\report\ten\two.c
+	<conio.h>
+
+1628831672 source:c:\users\user\onedrive\desktop\report\ten\four.c
+	<conio.h>
+
+1629190947 source:c:\users\user\onedrive\desktop\report\lab_10\four.c
+	<conio.h>
+	<string.h>
+
+1629130819 source:c:\users\user\onedrive\desktop\report\lab_10\three.c
+	<conio.h>
+
+1629127634 source:c:\users\user\onedrive\desktop\report\lab_10\two.c
+	<conio.h>
+
+1629201866 source:c:\users\user\onedrive\desktop\report\lab_10\five.c
+	<conio.h>
+	<string.h>
+
+1629125850 source:c:\users\user\onedrive\desktop\report\lab_10\one.c
+	<conio.h>
+
+1629211243 source:c:\users\user\onedrive\desktop\report\lab_10\six.c
+	<conio.h>
+
+1629208560 source:c:\users\user\onedrive\desktop\report\lab_10\try.c
+	<stdio.h>
+	<conio.h>
+
+1629269299 source:c:\users\user\onedrive\desktop\report\lab_10\seven.c
+	<conio.h>
+	<string.h>
+
+1629270396 source:c:\users\user\onedrive\desktop\report\lab_10\eight.c
+	<conio.h>
+	<string.h>
+
+1629269299 source:c:\users\user\onedrive\desktop\report\lab_10\nine.c
+	<conio.h>
+	<string.h>
+
+1629272351 source:c:\users\user\onedrive\desktop\report\lab_10\ten.c
+	<conio.h>
+	<string.h>
+
+1629275826 source:c:\users\user\onedrive\desktop\report\lab_10\eleven.c
+	<conio.h>
+	<string.h>
+
+1629277431 source:c:\users\user\onedrive\desktop\report\lab_10\twelve.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1629270396 source:d:\report\lab_10\eight.c
+	<conio.h>
+	<string.h>
+
+1629275826 source:d:\report\lab_10\eleven.c
+	<conio.h>
+	<string.h>
+
+1629201866 source:d:\report\lab_10\five.c
+	<conio.h>
+	<string.h>
+
+1629190947 source:d:\report\lab_10\four.c
+	<conio.h>
+	<string.h>
+
+1629269299 source:d:\report\lab_10\nine.c
+	<conio.h>
+	<string.h>
+
+1629125850 source:d:\report\lab_10\one.c
+	<conio.h>
+
+1629269299 source:d:\report\lab_10\seven.c
+	<conio.h>
+	<string.h>
+
+1630055703 source:d:\report\lab_10\six.c
+	<stdio.h>
+	<conio.h>
+
+1629272351 source:d:\report\lab_10\ten.c
+	<conio.h>
+	<string.h>
+
+1629130819 source:d:\report\lab_10\three.c
+	<conio.h>
+
+1629127634 source:d:\report\lab_10\two.c
+	<conio.h>
+
+1629278894 source:d:\report\lab_10\twelve.c
+	<conio.h>
+	<string.h>
+
+1630055703 source:d:\report\lab_10\try.c
+	<conio.h>
+	<string.h>
+

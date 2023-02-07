@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1624586741 source:c:\users\user\onedrive\desktop\lab_4\one.c
+	<conio.h>
+
+1624597461 source:c:\users\user\onedrive\desktop\lab_4\two.c
+	<conio.h>
+
+1624603156 source:c:\users\user\onedrive\desktop\lab_4\three.c
+	<conio.h>
+	<math.h>
+
+1624605355 source:c:\users\user\onedrive\desktop\lab_4\four.c
+	<conio.h>
+
+1624846804 source:c:\users\user\onedrive\desktop\lab_4\five.c
+	<conio.h>
+
+1624597982 source:c:\users\user\onedrive\desktop\lab_4\six.c
+	<conio.h>
+
+1625198628 source:c:\users\user\onedrive\desktop\lab_4\eight.c
+	<conio.h>
+	<math.h>
+
+1624850441 source:c:\users\user\onedrive\desktop\lab_4\seven.c
+	<conio.h>
+	<math.h>
+
+1625201812 source:c:\users\user\onedrive\desktop\lab_4\nine.c
+	<conio.h>
+
+1625201812 source:c:\users\user\onedrive\desktop\lab_4\ten.c
+	<stdio.h>
+	<conio.h>
+
+1624588330 source:c:\users\user\onedrive\desktop\lab_4\eleven.c
+	<conio.h>
+	<math.h>
+
+1625198628 source:c:\users\user\onedrive\desktop\report\lab_4\eight.c
+	<conio.h>
+	<math.h>
+
+1624846804 source:c:\users\user\onedrive\desktop\report\lab_4\five.c
+	<conio.h>
+
+1624605355 source:c:\users\user\onedrive\desktop\report\lab_4\four.c
+	<conio.h>
+
+1625201812 source:c:\users\user\onedrive\desktop\report\lab_4\nine.c
+	<conio.h>
+
+1624850441 source:c:\users\user\onedrive\desktop\report\lab_4\seven.c
+	<conio.h>
+	<math.h>
+
+1624597982 source:c:\users\user\onedrive\desktop\report\lab_4\six.c
+	<conio.h>
+
+1624603156 source:c:\users\user\onedrive\desktop\report\lab_4\three.c
+	<conio.h>
+	<math.h>
+
+1624597461 source:c:\users\user\onedrive\desktop\report\lab_4\two.c
+	<conio.h>
+
+1625761056 source:c:\users\user\onedrive\desktop\report\lab_4\one.c
+	<conio.h>
+
+1625203965 source:c:\users\user\onedrive\desktop\report\lab_4\ten.c
+	<conio.h>
+
+1629398535 source:c:\users\user\onedrive\desktop\report\lab_4\eleven.c
+	<stdio.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+
