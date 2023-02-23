@@ -1,4 +1,4 @@
-TITLE to read a string and then display it in next line
+TITLE to read a string and display each word in new line
 .MODEL SMALL
 .STACK 32
 .DATA
