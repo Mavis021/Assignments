@@ -17,27 +17,27 @@ MOV CL,LEN
 MOV BX,0
 MOV AX,0
 STEP1:MOV DX,[NUMBERS+BX]
-CMP DX,32H
-JB SKIP
-CMP DX,96H
-JA SKIP
+CMP DX,32H      ;compairing with 50
+JB SKIP         ;skip if less
+CMP DX,96H       ;compairing with 150
+JA SKIP         ;skip if greater
 ADD AX,DX
 SKIP: INC BX
 LOOP STEP1
 
 MOV NUM,AL
 LEA SI,NUM
-MOV BX,10
+MOV BX,10      ;for dividing the number by 10
 MOV CX,0
 STEP2:MOV DX,0
-DIV BX
-ADD DX,30H
-PUSH DX
+DIV BX          
+ADD DX,30H     ;converting into ascii character
+PUSH DX        ;storing in stack
 INC CX
-CMP AX,0
+CMP AX,0       
 JNE STEP2
 
-;DIAPLAY
+;DISPLAY the stored decimal digits
 MOV AH, 02
 DISP:POP DX
 INT 21H
