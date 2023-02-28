@@ -1,30 +1,29 @@
-TITLE to convert the text in the memory into uppercase
+TITLE to convert the text in the memory into lowercase
 .MODEL SMALL
 .STACK 32
 .DATA
-LIST DB 'a','e','i','o','U','$'
-LEN DB $-LIST
+STRING DB 'programming IS fUN','$'
+LEN DW $-STRING
 
 .CODE
 MAIN PROC FAR
 MOV AX,@DATA
 MOV DS,AX
 
-MOV SI,OFFSET LIST
-MOV CH,0
-MOV CL,LEN
-L1:MOV DL,[LIST+SI-2]
+MOV SI,OFFSET STRING
+MOV CX,LEN
+L1:MOV DL,[STRING+SI]
 CMP DL,'a'
 JB SKIP
 CMP DL,'z'
 JA SKIP
 SUB DL,20H
-MOV [LIST+SI-2],DL
+MOV [STRING+SI],DL
 SKIP:INC SI
 LOOP L1
 
 MOV AH,09H
-LEA DX,LIST
+LEA DX,STRING
 INT 21H
 
 MOV AH,4CH
