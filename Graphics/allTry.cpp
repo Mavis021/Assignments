@@ -1,5 +1,3 @@
-
-//BLA Algorithms 
 #include<iostream>
 #include<graphics.h>
 #include<cmath>
@@ -85,15 +83,76 @@ class BeserhamLineAlgorithm
 
 };
 
+class midpointCircleAlgorithm
+{
+    private:
+    int a,b,r,xk,yk,pk,i;
+
+    public:
+    midpointCircleAlgorithm():i(0)
+    {
+        getData();
+
+        xk = 0;
+        yk = r;     
+        pk = 1-r; 
+    }
+
+    void composeOneEighth()
+    {
+        delay(50);
+
+        if(pk <= 0)
+        {
+            xk += 1;
+            pk +=2 *xk +1;
+        }
+        else
+        {
+            xk += 1;
+            yk -= 1;
+            pk += 2*xk - 2*yk +1;
+        }
+
+    }
+
+    void makeCircle()
+    {
+        for( i =0 ; xk<=yk; i++)
+        {
+           putpixel(yk+b,xk+a,1);
+            putpixel(yk+b,-xk+a,2);
+            putpixel(-yk+b, xk+a,3);
+            putpixel(-yk+b,-xk+a,4);
+            putpixel(xk+a,yk+b,5);
+            putpixel(-xk+a,yk+b,6);
+            putpixel(-xk+a,yk+b,7);
+            putpixel(xk+a,-yk+b,8);
+            composeOneEighth();
+        }
+    }
+    void getData()
+    {
+        std::cout<<"ENTER THE CENTER AND RADIUS OF THE CIRCLE: ";
+        std::cin>>a>>b>>r;
+    }
+
+};
+
 int main(int argc, char const *argv[])
 {
     int gd = DETECT, gm;
     initgraph(&gd,&gm,(char*)"");
 
-   BeserhamLineAlgorithm BLA;
-   BLA.calculation();
+//    BeserhamLineAlgorithm BLA;
+//    BLA.calculation();
+
+midpointCircleAlgorithm mpa;
+mpa.makeCircle();
 
     getch();
     closegraph();
     return 0;
 }
+
+
