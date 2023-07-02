@@ -15,19 +15,13 @@ class binaryOperations:
                 return 0
             else:
                 return 1
-        
-        # def zeroPadding(self,x,y):
-        #     n = max(len(x),len(y))
 
-        #     if(n==len(y)):
-        #         x = x.zfill(n)
-        #         return x
-        #     else:
-        #         y = y.zfill(n)
-        #         return y
-
-        def addition(self,v1,v2):
-            n = max(len(v1),len(v2))    #get the maximum number of digits and zero-padding the strings
+        def addition(self,v1,v2,temp = 0):
+            if(temp == 8):
+                n = 8
+            else:
+                n = max(len(v1),len(v2))    #get the maximum number of digits and zero-padding the strings
+            
             v1 = v1.zfill(n)
             v2 = v2.zfill(n)
             carry = 0
@@ -42,9 +36,13 @@ class binaryOperations:
                 sum = str(carry) + sum
 
             return sum
+
         
-        def subtraction(self,x,y):
-            n = max(len(x),len(y)) 
+        def subtraction(self,x,y,temp = 0):
+            if(temp == 8):
+                n = 8
+            else:
+                n = max(len(x),len(y))    #get the maximum number of digits and zero-padding the strings
             x = x.zfill(n)
             y = y.zfill(n)
 
@@ -60,21 +58,21 @@ class binaryOperations:
                 return res
             else:
                 return res
-    
-        def multiplication(self,b,q):
-            print("\n USING BOOTH'S ALGORITHM")
+            
+        def boothMult(self,b,q):
             n = max(len(b),len(q))      #get the maximum number of digits and zero-padding the strings
+
+            if(n < 4):
+                n = 4
             b = b.zfill(n)
             q = q.zfill(n)
 
             a = ""
             a = a.zfill(n)
-            
             q1 = "0"
             for i in range (n):
                 if(q[n-1] == "1" and q1 == "0" ):
                     a = self.subtraction(a,b)        #A = A - B
-                        
                     q1 = q[n-1]                      #ASR
                     q = a[n-1]+q[:-1]
                     a = a[0]+a[:-1]
@@ -87,25 +85,25 @@ class binaryOperations:
                  #asr
                     q1 = q[n-1]
                     q = a[n-1]+ q[:-1]
-                    a = a[0]+ a[:-1]
-                 
+                    a = a[0]+ a[:-1]         
                     pass
 
                 else:
                 #asr
                     q1 = q[n-1]
                     q = a[n-1]+ q[:-1]
-                    a = a[0]+ a[:-1]
-                
+                    a = a[0]+ a[:-1]       
                     pass
             
             return a+q
         
-        def division(self,q,y):
+        def rDiv(self,q,y):
             n = max(len(q),len(y))
             q = q.zfill(n)
             y = y.zfill(n)
 
+            print(q)
+            print(y)
             a = ""
             a = a.zfill(n+1)
 
@@ -119,15 +117,58 @@ class binaryOperations:
                         a = a[1:]
             
             print(" QUOTIENT = ",q,"REMAINDER = ",a)
+        
+        
+        
+        def nrDiv(self,q,y):
+            n = max(len(q),len(y))
+            q = q.zfill(n)
+            y = y.zfill(n)
 
+            print(q)
+            print(y)
+            a = ""
+            a = a.zfill(n+1)
 
+            for i in range(n):
+                
+                a = a[1:]+q[0]   #shift
 
+                if(a[0] =='0'):  
+                    a = self.subtraction(a,y)
+                else:
+                    a = self.addition(a,y)
+                    if(len(a) != (n+1)):
+                        a = a[1:]
 
+                q = q[1:]+str(self.XOR(int(a[0]),1))
+            
+            if(a[0] == '1'):
+                a  = self.addition(a,y)
+                if(len(a) != (n+1)):
+                    a = a[1:]
+            
+            print(" QUOTIENT = ",q,"REMAINDER = ",a)
 
+        def partial(self,q,y):
+            n = max(len(q),len(y))
+            if(n<4):
+                n = 4
 
+            q = q.zfill(n)
+            y = y.zfill(n)
+            res = ""
 
-#sum = (a xor b )xor c
-#carry = (a and b) + (a xor b)
+            for i in range(n-1,-1,-1):
+                if(y[i] == '1'):
+                    res = self.addition(res,q)
+                    q += '0'
+                else:
+                    res = self.addition(res,"0")
+                    q += '0'
+            
+            return res
+
 
 def main():
     bo = binaryOperations()
@@ -139,23 +180,26 @@ def main():
         if(choice == '1'):
             first = input("FIRST: ")
             second = input("Second: ")
-            print("sum =",bo.addition(first,second))
+            print("sum =",bo.addition(first,second,8))
             pass
         elif(choice == '2'):
             first = input("MINUEND: ")
             second = input("SUBTRAHEND: ")
-            print("subtraction =",bo.subtraction(first,second))
+            print("subtraction =",bo.subtraction(first,second,8))
             pass
         elif(choice == '3'):
             first = input("MULTIPLICAND: ")
             second = input("MULTIPLIER: ")
-            print("multiplication =",bo.multiplication(first,second))
+            print("\nBOOTH'S ALGORITHM =",bo.boothMult(first,second))
+            print("PARTIAL PRODUCT METHOD =",bo.partial(first,second))
             pass
         elif(choice == '4'):
             first = input("DIVIDEND: ")
             second = input("DIVISOR: ")
             print("\nALGORITHM FOR RESORTING DIVISION: ")
-            bo.division(first,second)
+            bo.rDiv(first,second)
+            print("\nALGORITHM FOR NON-RESORTING DIVISION: ")
+            bo.nrDiv(first,second)
             pass
         else:
             break
