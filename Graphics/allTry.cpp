@@ -1,3 +1,4 @@
+//BLA Algorithms 
 #include<iostream>
 #include<graphics.h>
 #include<cmath>
@@ -139,6 +140,90 @@ class midpointCircleAlgorithm
 
 };
 
+class midpointEllipseAlgo
+{
+    private:
+    int h,k,a,b,i;
+    float xk,yk,p1,p2;
+
+    public:
+    midpointEllipseAlgo()
+    {
+        getData();
+        xk = 0;                       //2. initializing the first point
+        yk = b;
+    }
+
+    void getData()
+    {
+        std::cout<<"ENTER THE CENTER OF ELLIPSE: ";
+        std::cin>>h>>k;
+        std::cout<<"ENTER THE VALUE OF a AND b :";
+        std::cin>>a>>b;
+    }
+
+    //pvalue for region 1
+    void regionI()
+    {
+        delay(50);
+                p1 = b*b - b*a*a+ (a*a)/4;
+
+     for(i=0;(2 *xk*b*b )<= (2*yk*a*a);i++){
+        putpixel(xk+h,yk+k,1);
+        putpixel(xk+h,-yk+k,2);
+        putpixel(-xk+h,yk+k,3);
+        putpixel(-xk+h,-yk+k,4);
+
+            if(p1 <= 0)
+            {
+                xk += 1;
+                p1 += (2 *xk *b* b)+(b*b);
+            }
+            else
+            {
+                xk += 1;
+                yk -= 1;
+                p1 += (2 *xk *b* b)+(b*b)-(2*yk*a*a);
+            }
+     }
+    }
+
+    //pvalue for region 2
+    void regionII()
+    {
+        delay(50);
+         p2 = pow((xk + 0.5),2)*b*b+pow((yk-1),2)*a*a-a*a*b*b;    //xk and yk are the last point of region I
+
+        for(i=0;yk >= 0;i++){
+        putpixel(xk+h,yk+k,4);
+        putpixel(xk+h,-yk+k,3);
+        putpixel(-xk+h,yk+k,2);
+        putpixel(-xk+h,-yk+k,1);
+       
+            if(p2 <= 0)
+            {
+                xk += 1;
+                yk -= 1;
+                p2 += (2 *xk *b* b)+(a*a)-(2*yk*a*a);
+            }
+            else
+            {
+                yk -= 1;
+                p2 += (a*a)-(2*yk*a*a);
+            }
+        }
+    }
+    void makeEllipse()
+    {
+
+        regionI();
+
+     
+        regionII();
+    }
+
+};
+
 int main(int argc, char const *argv[])
 {
     int gd = DETECT, gm;
@@ -147,12 +232,13 @@ int main(int argc, char const *argv[])
 //    BeserhamLineAlgorithm BLA;
 //    BLA.calculation();
 
-midpointCircleAlgorithm mpa;
-mpa.makeCircle();
+// midpointCircleAlgorithm mpa;
+// mpa.makeCircle();
+
+    midpointEllipseAlgo EA;
+    EA.makeEllipse();
 
     getch();
     closegraph();
     return 0;
 }
-
-
