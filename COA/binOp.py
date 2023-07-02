@@ -67,20 +67,13 @@ class binaryOperations:
             b = b.zfill(n)
             q = q.zfill(n)
 
-            cmpb = ""
-            for i in range (n):
-                cmpb += str(self.XOR(int(b[i]),1))
-            cmpb = self.addition(cmpb,"1")
-
             a = ""
             a = a.zfill(n)
             
             q1 = "0"
             for i in range (n):
                 if(q[n-1] == "1" and q1 == "0" ):
-                    a = self.addition(a,cmpb)        #A = A - B
-                    if(len(a) != n):
-                        a = a[1:]
+                    a = self.subtraction(a,b)        #A = A - B
                         
                     q1 = q[n-1]                      #ASR
                     q = a[n-1]+q[:-1]
@@ -107,6 +100,30 @@ class binaryOperations:
                     pass
             
             return a+q
+        
+        def division(self,q,y):
+            n = max(len(q),len(y))
+            q = q.zfill(n)
+            y = y.zfill(n)
+
+            a = ""
+            a = a.zfill(n+1)
+
+            for i in range(n):
+                a = a[1:]+q[0]   #shift
+                a = self.subtraction(a,y)            
+                q = q[1:]+str(self.XOR(int(a[0]),1))
+                if(a[0]=='1'):
+                    a = self.addition(a,y)    #restore
+                    if(len(a) != (n+1)):
+                        a = a[1:]
+            
+            print(" QUOTIENT = ",q,"REMAINDER = ",a)
+
+
+
+
+
 
 
 #sum = (a xor b )xor c
@@ -118,7 +135,7 @@ def main():
     prompt = "Y"
 
     while(prompt == "Y"):
-        choice = input("CHOOSE AN OPERATION: \n 1 for ADDITION \n 2 for SUBTRACTION \n 3 for MULTIPLICATION \n OTHER KEY TO LEAVE : ")
+        choice = input("CHOOSE AN OPERATION: \n 1 for ADDITION \n 2 for SUBTRACTION \n 3 for MULTIPLICATION \n 4 for DIVISION \n OTHER KEY TO LEAVE : ")
         if(choice == '1'):
             first = input("FIRST: ")
             second = input("Second: ")
@@ -133,6 +150,12 @@ def main():
             first = input("MULTIPLICAND: ")
             second = input("MULTIPLIER: ")
             print("multiplication =",bo.multiplication(first,second))
+            pass
+        elif(choice == '4'):
+            first = input("DIVIDEND: ")
+            second = input("DIVISOR: ")
+            print("\nALGORITHM FOR RESORTING DIVISION: ")
+            bo.division(first,second)
             pass
         else:
             break
