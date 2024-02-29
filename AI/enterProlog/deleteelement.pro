@@ -1,0 +1,25 @@
+DOMAINS
+LIST=integer*
+
+PREDICATES
+DELETESELECTED(LIST, integer, LIST)
+UPDATE(LIST,LIST,LIST, integer, integer)
+REVERSE(LIST,LIST,LIST)
+
+CLAUSES 
+DELETESELECTED(A, D, B):- 
+	UPDATE(A, [], TEMP, D, 0), REVERSE(TEMP,[],B).
+	UPDATE([], A, A, _, _). 
+
+UPDATE([H|T], A, B, D, I):- 
+	D = I, NEWI=I+1, UPDATE(T, A, B, D, NEWI).
+	
+UPDATE([H|T], A, B, D, I):-
+	D<>I, NEWI = I+1, UPDATE(T, [H|A], B, D, NEWI).
+	REVERSE([], A, A).
+
+REVERSE([H|T], A, R):-
+	REVERSE(T, [H|A], R).
+
+GOAL
+DELETESELECTED([1,1,2,3,4,1,1], 2, B).

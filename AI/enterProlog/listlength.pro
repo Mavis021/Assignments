@@ -1,0 +1,13 @@
+DOMAINS
+INT_LIST=integer*
+
+PREDICATES
+LENGTH(INT_LIST, integer)
+
+CLAUSES 
+LENGTH([],0).
+LENGTH([H|T],L):- 
+	LENGTH(T,L1),L=L1+1.
+
+GOAL
+LENGTH([1,2,3,4],X).
