@@ -1,0 +1,1001 @@
+age,income,education_level,marital_status,bought_car
+20,100000000,Bachelors,Widowed,0
+51,40000000,Associates,Single,1
+36,90000000,High School,Widowed,0
+42,100000000,Associates,Divorced,1
+30,110000000,Associates,Divorced,1
+23,35000000,High School,Widowed,0
+23,75000000,Bachelors,Single,1
+39,85000000,High School,Divorced,0
+56,50000000,Masters,Divorced,0
+60,95000000,Masters,Married,0
+27,110000000,Associates,Single,1
+40,40000000,High School,Single,0
+38,30000000,Bachelors,Widowed,1
+28,95000000,High School,Widowed,1
+20,35000000,High School,Single,1
+22,120000000,Bachelors,Widowed,0
+45,65000000,Associates,Married,0
+35,80000000,Masters,Single,0
+30,80000000,Bachelors,Married,1
+53,80000000,Bachelors,Single,1
+36,70000000,Bachelors,Single,0
+43,70000000,High School,Divorced,0
+26,115000000,Masters,Divorced,0
+30,65000000,High School,Divorced,0
+35,120000000,Associates,Single,1
+50,55000000,Bachelors,Divorced,1
+54,80000000,Associates,Widowed,0
+54,45000000,Masters,Divorced,0
+54,55000000,Associates,Divorced,0
+23,60000000,Masters,Single,1
+50,120000000,Associates,Divorced,1
+45,95000000,Masters,Divorced,1
+34,85000000,Masters,Divorced,1
+37,110000000,Bachelors,Widowed,1
+51,35000000,Bachelors,Single,0
+56,75000000,High School,Widowed,1
+23,120000000,High School,Single,0
+43,65000000,Associates,Divorced,1
+20,115000000,High School,Widowed,1
+33,35000000,Masters,Single,1
+22,65000000,Associates,Widowed,1
+37,60000000,Associates,Married,1
+57,50000000,Masters,Married,1
+36,85000000,Bachelors,Single,1
+26,100000000,Associates,Single,0
+48,110000000,Masters,Married,1
+22,50000000,Bachelors,Single,1
+48,100000000,High School,Single,0
+53,90000000,Associates,Divorced,0
+36,30000000,Masters,Widowed,1
+22,35000000,Bachelors,Widowed,0
+44,120000000,Associates,Divorced,1
+49,105000000,Masters,Widowed,0
+41,85000000,Associates,Single,0
+40,60000000,Masters,Divorced,1
+30,105000000,Bachelors,Divorced,0
+40,120000000,Bachelors,Divorced,0
+42,110000000,Masters,Single,0
+51,70000000,High School,Married,0
+58,60000000,High School,Widowed,0
+26,50000000,Masters,Widowed,0
+44,115000000,High School,Married,1
+35,85000000,Associates,Married,0
+41,65000000,Associates,Divorced,0
+23,100000000,High School,Married,0
+29,60000000,Masters,Married,0
+43,55000000,Masters,Single,1
+51,45000000,Masters,Widowed,1
+38,80000000,High School,Married,0
+47,85000000,Associates,Widowed,1
+48,55000000,High School,Single,1
+26,45000000,High School,Single,1
+53,100000000,High School,Single,0
+37,100000000,Masters,Married,1
+57,55000000,Masters,Divorced,0
+23,95000000,Bachelors,Single,0
+58,45000000,Associates,Married,0
+53,60000000,Associates,Widowed,1
+55,40000000,High School,Widowed,1
+25,85000000,Masters,Divorced,1
+28,60000000,Associates,Widowed,0
+45,90000000,Associates,Single,0
+51,75000000,High School,Married,1
+42,100000000,Associates,Single,1
+44,40000000,High School,Married,0
+23,70000000,Masters,Single,1
+51,65000000,Associates,Widowed,1
+56,110000000,High School,Widowed,1
+36,55000000,High School,Divorced,0
+41,40000000,Associates,Widowed,0
+32,110000000,Masters,Married,0
+59,110000000,Masters,Married,1
+56,90000000,Masters,Single,0
+30,95000000,Masters,Divorced,1
+24,100000000,High School,Widowed,1
+21,90000000,High School,Widowed,1
+37,70000000,High School,Widowed,1
+29,50000000,Masters,Divorced,1
+50,80000000,Masters,Single,0
+56,65000000,Masters,Widowed,1
+30,60000000,Bachelors,Single,1
+54,120000000,Masters,Divorced,0
+50,90000000,Masters,Single,1
+26,50000000,Associates,Married,1
+39,60000000,Masters,Married,1
+50,60000000,Bachelors,Widowed,1
+47,30000000,High School,Single,0
+35,120000000,Masters,Divorced,0
+60,75000000,High School,Divorced,1
+47,100000000,Bachelors,Single,0
+45,60000000,Associates,Married,0
+31,110000000,Masters,Divorced,0
+24,90000000,Associates,Single,1
+53,60000000,Masters,Single,0
+36,35000000,Bachelors,Single,1
+59,105000000,Masters,Single,1
+50,105000000,Bachelors,Divorced,1
+24,45000000,Associates,Divorced,0
+20,95000000,Associates,Widowed,1
+39,70000000,Bachelors,Single,0
+20,60000000,Masters,Married,1
+37,120000000,Masters,Single,1
+23,50000000,Associates,Divorced,1
+41,55000000,Bachelors,Divorced,0
+53,95000000,Associates,Divorced,1
+27,50000000,High School,Widowed,1
+30,70000000,Associates,Single,0
+37,80000000,Associates,Married,1
+57,65000000,Masters,Divorced,1
+28,70000000,Bachelors,Single,1
+41,80000000,High School,Widowed,0
+38,120000000,Bachelors,Married,1
+41,75000000,Masters,Married,0
+60,80000000,High School,Single,0
+51,65000000,High School,Divorced,0
+38,35000000,High School,Widowed,0
+20,60000000,Bachelors,Married,1
+54,40000000,High School,Married,0
+52,70000000,Associates,Single,0
+30,55000000,High School,Widowed,0
+41,80000000,High School,Single,0
+56,40000000,Associates,Widowed,1
+54,60000000,Associates,Married,0
+26,45000000,Bachelors,Married,0
+57,60000000,High School,Married,0
+40,80000000,Bachelors,Widowed,1
+48,40000000,Bachelors,Single,0
+51,110000000,Associates,Divorced,1
+31,115000000,Masters,Single,0
+36,115000000,Associates,Single,0
+58,75000000,Bachelors,Widowed,1
+56,105000000,Bachelors,Widowed,1
+41,90000000,Associates,Divorced,1
+22,115000000,High School,Widowed,1
+55,35000000,Bachelors,Widowed,1
+40,100000000,Masters,Widowed,0
+28,65000000,Masters,Single,1
+36,105000000,Bachelors,Divorced,0
+21,30000000,Bachelors,Widowed,1
+24,95000000,Bachelors,Divorced,0
+21,65000000,High School,Widowed,1
+48,40000000,Associates,Divorced,0
+21,100000000,Masters,Divorced,1
+28,70000000,Associates,Married,0
+25,70000000,Masters,Widowed,0
+26,80000000,Masters,Divorced,0
+53,75000000,Masters,Single,1
+20,55000000,Associates,Widowed,0
+52,45000000,Associates,Divorced,1
+58,95000000,Bachelors,Single,1
+31,100000000,High School,Single,0
+41,110000000,High School,Widowed,0
+24,115000000,Associates,Single,1
+53,85000000,Associates,Married,0
+43,85000000,High School,Widowed,0
+38,100000000,Masters,Widowed,0
+38,30000000,High School,Widowed,0
+23,115000000,Bachelors,Divorced,1
+42,115000000,Masters,Single,0
+29,45000000,Bachelors,Single,0
+54,50000000,Associates,Widowed,0
+37,55000000,Masters,Divorced,0
+49,60000000,Masters,Married,1
+24,55000000,Bachelors,Widowed,0
+41,50000000,High School,Widowed,1
+32,80000000,Associates,Widowed,1
+45,80000000,Bachelors,Divorced,1
+47,55000000,High School,Widowed,1
+46,40000000,Masters,Widowed,0
+50,85000000,High School,Divorced,0
+35,85000000,Bachelors,Widowed,1
+36,60000000,Associates,Single,1
+28,50000000,Bachelors,Widowed,1
+40,105000000,Associates,Married,0
+48,120000000,Associates,Single,0
+37,90000000,High School,Widowed,1
+22,60000000,Associates,Married,1
+29,95000000,High School,Married,1
+55,60000000,Bachelors,Widowed,1
+38,60000000,Associates,Widowed,1
+22,115000000,Bachelors,Widowed,0
+53,105000000,Bachelors,Divorced,0
+52,35000000,Masters,Divorced,1
+36,60000000,Masters,Married,0
+28,35000000,Bachelors,Single,1
+53,90000000,Masters,Divorced,1
+37,80000000,Associates,Married,0
+41,75000000,Masters,Married,0
+59,30000000,Masters,Married,0
+57,95000000,Masters,Widowed,1
+38,70000000,Associates,Married,0
+30,50000000,Masters,Married,0
+30,90000000,Masters,Married,0
+42,30000000,Masters,Divorced,0
+48,90000000,Bachelors,Widowed,1
+57,80000000,Bachelors,Single,1
+41,110000000,Masters,Married,1
+45,65000000,Bachelors,Widowed,1
+49,115000000,Masters,Widowed,0
+47,65000000,Masters,Divorced,0
+49,55000000,Associates,Divorced,0
+60,40000000,High School,Widowed,0
+34,100000000,Bachelors,Single,0
+30,80000000,Associates,Married,0
+41,50000000,Masters,Married,0
+22,100000000,High School,Widowed,0
+45,120000000,Masters,Married,0
+43,80000000,Bachelors,Widowed,0
+39,40000000,High School,Divorced,0
+24,120000000,Associates,Widowed,1
+20,35000000,High School,Single,0
+39,70000000,Masters,Divorced,0
+20,55000000,High School,Widowed,1
+34,115000000,Masters,Married,0
+23,60000000,Bachelors,Married,0
+30,85000000,Bachelors,Divorced,1
+23,120000000,High School,Widowed,1
+47,55000000,Bachelors,Married,1
+57,120000000,Associates,Married,0
+48,100000000,Masters,Single,1
+35,115000000,Masters,Single,1
+23,90000000,Bachelors,Single,1
+25,80000000,Bachelors,Single,0
+58,100000000,Bachelors,Divorced,0
+36,80000000,High School,Married,1
+51,75000000,High School,Divorced,1
+56,50000000,Masters,Widowed,1
+58,95000000,Associates,Married,0
+37,35000000,Masters,Married,0
+60,35000000,Associates,Single,0
+26,35000000,High School,Widowed,0
+30,50000000,Associates,Divorced,0
+23,55000000,Masters,Single,1
+22,50000000,Masters,Divorced,0
+43,120000000,Masters,Widowed,0
+25,30000000,Masters,Married,0
+48,95000000,High School,Widowed,0
+25,40000000,Bachelors,Single,0
+43,40000000,Bachelors,Divorced,0
+49,35000000,Masters,Married,1
+45,30000000,Masters,Divorced,0
+22,70000000,High School,Divorced,0
+35,30000000,Bachelors,Divorced,0
+39,75000000,Bachelors,Widowed,1
+21,110000000,Associates,Widowed,0
+28,50000000,Bachelors,Divorced,1
+21,30000000,Bachelors,Married,1
+57,45000000,Masters,Widowed,0
+20,60000000,High School,Widowed,1
+31,110000000,High School,Married,0
+44,120000000,Masters,Single,0
+26,30000000,Associates,Widowed,1
+29,120000000,High School,Divorced,1
+53,60000000,Masters,Single,1
+27,115000000,Associates,Married,0
+53,120000000,High School,Single,1
+34,115000000,Masters,Divorced,1
+26,55000000,High School,Married,1
+44,95000000,Bachelors,Single,1
+55,45000000,Masters,Married,0
+60,35000000,High School,Single,1
+38,35000000,Bachelors,Married,0
+48,40000000,High School,Widowed,1
+34,120000000,Associates,Single,0
+58,50000000,High School,Single,1
+51,80000000,Masters,Married,0
+54,105000000,Associates,Single,1
+43,110000000,Masters,Married,0
+20,85000000,Associates,Divorced,0
+38,100000000,High School,Single,0
+38,30000000,High School,Widowed,1
+26,35000000,High School,Widowed,0
+23,40000000,Masters,Single,0
+41,110000000,Bachelors,Widowed,1
+34,105000000,Associates,Widowed,1
+35,70000000,Bachelors,Divorced,0
+26,50000000,High School,Divorced,0
+27,65000000,High School,Single,0
+22,85000000,Masters,Married,1
+55,55000000,High School,Divorced,0
+35,35000000,High School,Divorced,0
+27,50000000,Bachelors,Divorced,1
+28,40000000,High School,Single,1
+29,50000000,Associates,Divorced,0
+34,40000000,Masters,Divorced,0
+49,115000000,Masters,Divorced,0
+24,80000000,Bachelors,Widowed,0
+37,60000000,Associates,Married,1
+45,105000000,Bachelors,Widowed,1
+38,95000000,High School,Divorced,0
+57,40000000,Masters,Divorced,1
+52,40000000,Associates,Married,1
+51,65000000,Bachelors,Single,0
+26,50000000,High School,Married,1
+59,45000000,Masters,Widowed,1
+46,105000000,Bachelors,Divorced,1
+31,115000000,Masters,Divorced,0
+37,65000000,Masters,Single,0
+50,35000000,Bachelors,Married,0
+42,45000000,Masters,Divorced,1
+37,100000000,Associates,Married,1
+34,105000000,Masters,Divorced,0
+37,120000000,Bachelors,Single,1
+59,70000000,Masters,Married,1
+55,110000000,Associates,Widowed,0
+46,45000000,Masters,Married,1
+47,75000000,Bachelors,Married,0
+20,110000000,Masters,Married,1
+33,80000000,Associates,Divorced,1
+44,80000000,High School,Married,0
+45,65000000,Associates,Widowed,0
+34,75000000,High School,Single,1
+35,55000000,Bachelors,Single,0
+45,120000000,Bachelors,Single,1
+51,75000000,Bachelors,Married,1
+51,110000000,High School,Divorced,1
+34,85000000,High School,Widowed,0
+21,65000000,Masters,Widowed,0
+49,105000000,Associates,Single,1
+37,55000000,Masters,Widowed,1
+51,80000000,High School,Single,0
+55,120000000,High School,Married,0
+46,35000000,Associates,Married,0
+40,75000000,Bachelors,Single,1
+32,60000000,Bachelors,Married,1
+57,70000000,High School,Single,0
+33,120000000,Masters,Single,1
+20,100000000,Bachelors,Married,1
+51,95000000,Masters,Single,1
+58,110000000,Masters,Single,1
+25,50000000,Bachelors,Married,0
+48,95000000,Associates,Divorced,1
+53,50000000,Bachelors,Widowed,1
+57,40000000,Associates,Divorced,0
+39,65000000,Masters,Married,0
+37,85000000,Masters,Divorced,1
+45,65000000,Associates,Widowed,0
+35,110000000,Masters,Widowed,1
+28,80000000,High School,Divorced,0
+28,105000000,Associates,Divorced,1
+24,35000000,Bachelors,Single,0
+26,45000000,High School,Widowed,0
+50,45000000,Bachelors,Married,1
+36,30000000,Associates,Divorced,1
+57,55000000,Bachelors,Single,0
+40,60000000,High School,Single,0
+31,100000000,High School,Single,0
+60,60000000,Bachelors,Divorced,1
+48,35000000,Bachelors,Single,0
+31,55000000,High School,Single,1
+53,55000000,High School,Single,0
+46,80000000,Bachelors,Single,0
+44,105000000,Associates,Single,1
+40,35000000,High School,Single,0
+49,65000000,Bachelors,Married,1
+56,55000000,Bachelors,Single,1
+27,65000000,Bachelors,Divorced,1
+22,95000000,Masters,Divorced,0
+31,30000000,High School,Single,1
+48,115000000,Masters,Single,0
+37,115000000,Bachelors,Divorced,1
+31,110000000,Associates,Widowed,0
+27,115000000,High School,Widowed,0
+21,110000000,Masters,Divorced,0
+50,50000000,High School,Widowed,1
+29,65000000,Bachelors,Married,1
+21,40000000,Associates,Married,1
+29,60000000,Bachelors,Married,1
+34,60000000,Bachelors,Widowed,0
+35,110000000,Masters,Divorced,1
+50,115000000,High School,Divorced,0
+31,60000000,Associates,Widowed,1
+47,95000000,High School,Single,1
+52,40000000,Masters,Divorced,1
+21,50000000,High School,Widowed,1
+26,105000000,Bachelors,Widowed,1
+24,100000000,Masters,Widowed,1
+23,120000000,High School,Married,1
+38,50000000,Bachelors,Single,0
+50,65000000,Associates,Single,1
+27,90000000,High School,Married,0
+24,70000000,High School,Married,0
+35,75000000,High School,Single,0
+30,100000000,High School,Married,0
+58,100000000,Bachelors,Married,1
+28,105000000,Bachelors,Widowed,0
+41,70000000,Bachelors,Divorced,0
+22,30000000,High School,Widowed,0
+39,110000000,Bachelors,Single,1
+43,120000000,High School,Married,0
+34,50000000,Bachelors,Married,1
+50,40000000,Associates,Married,0
+38,60000000,High School,Single,1
+33,40000000,Bachelors,Widowed,1
+38,105000000,High School,Widowed,1
+48,105000000,High School,Married,1
+25,40000000,Associates,Widowed,1
+31,110000000,Bachelors,Divorced,0
+55,30000000,Masters,Married,0
+49,105000000,Associates,Divorced,1
+48,55000000,Masters,Single,0
+49,80000000,Associates,Single,0
+32,60000000,High School,Widowed,0
+51,55000000,Bachelors,Divorced,1
+53,50000000,Bachelors,Married,0
+24,100000000,Associates,Married,1
+57,70000000,High School,Married,1
+56,120000000,Bachelors,Married,1
+57,60000000,High School,Single,1
+21,105000000,Associates,Married,1
+23,50000000,High School,Single,1
+59,70000000,High School,Single,1
+21,60000000,Bachelors,Married,1
+32,85000000,Associates,Divorced,1
+33,85000000,Bachelors,Married,0
+42,105000000,High School,Single,0
+46,80000000,Masters,Single,1
+43,60000000,High School,Married,1
+33,80000000,High School,Married,1
+20,40000000,Masters,Widowed,1
+46,35000000,Associates,Divorced,1
+33,120000000,Masters,Single,0
+31,70000000,Bachelors,Widowed,1
+28,95000000,High School,Married,0
+34,45000000,Associates,Widowed,0
+41,115000000,Masters,Divorced,0
+53,35000000,Bachelors,Single,0
+39,65000000,Masters,Single,1
+53,90000000,Masters,Divorced,1
+30,40000000,Masters,Widowed,1
+46,40000000,High School,Divorced,1
+32,60000000,High School,Single,0
+59,115000000,Bachelors,Married,1
+46,45000000,High School,Divorced,0
+26,30000000,Bachelors,Single,1
+52,50000000,Masters,Divorced,1
+32,60000000,Bachelors,Divorced,0
+45,120000000,Associates,Married,1
+24,110000000,Masters,Married,1
+54,110000000,Masters,Divorced,0
+24,120000000,Masters,Single,1
+39,35000000,High School,Divorced,1
+41,55000000,High School,Single,0
+21,110000000,Bachelors,Single,1
+49,95000000,High School,Married,1
+41,105000000,High School,Widowed,0
+60,70000000,Associates,Single,0
+47,65000000,Masters,Single,0
+42,30000000,Associates,Single,1
+26,100000000,Associates,Married,0
+23,115000000,Associates,Married,1
+27,105000000,Masters,Widowed,1
+38,30000000,Masters,Married,1
+42,55000000,Bachelors,Single,1
+41,50000000,Associates,Single,1
+36,65000000,High School,Divorced,1
+35,100000000,Masters,Divorced,0
+37,115000000,Associates,Single,0
+55,75000000,Bachelors,Married,0
+46,75000000,High School,Widowed,1
+30,40000000,Bachelors,Single,1
+60,65000000,Masters,Divorced,1
+34,90000000,High School,Widowed,1
+34,100000000,Bachelors,Widowed,1
+30,95000000,Associates,Married,1
+53,100000000,Associates,Widowed,1
+46,35000000,Bachelors,Single,1
+34,110000000,Associates,Single,1
+50,120000000,Associates,Married,0
+25,100000000,Masters,Widowed,1
+25,75000000,Masters,Divorced,1
+22,40000000,Bachelors,Single,1
+31,75000000,Bachelors,Widowed,1
+54,55000000,Associates,Married,0
+30,80000000,High School,Married,0
+30,95000000,High School,Single,0
+42,90000000,Masters,Married,1
+31,60000000,Masters,Widowed,1
+21,40000000,Associates,Divorced,1
+46,120000000,Bachelors,Divorced,0
+53,30000000,Associates,Divorced,1
+47,80000000,High School,Married,0
+56,95000000,Masters,Widowed,0
+51,30000000,Associates,Married,0
+25,90000000,Masters,Single,1
+42,105000000,Masters,Divorced,0
+48,85000000,High School,Divorced,0
+39,85000000,Associates,Widowed,0
+59,80000000,Bachelors,Single,0
+37,80000000,High School,Married,1
+35,30000000,High School,Divorced,1
+25,75000000,Bachelors,Widowed,0
+44,45000000,Associates,Widowed,1
+40,110000000,High School,Widowed,1
+50,95000000,High School,Divorced,0
+42,110000000,Masters,Single,0
+20,60000000,Bachelors,Single,0
+31,95000000,High School,Single,1
+49,70000000,High School,Single,0
+54,90000000,High School,Single,1
+23,55000000,Associates,Single,0
+53,65000000,High School,Single,1
+41,100000000,Masters,Married,0
+32,35000000,Masters,Divorced,1
+30,105000000,High School,Divorced,1
+41,115000000,High School,Widowed,1
+25,45000000,Masters,Widowed,0
+31,40000000,Bachelors,Married,1
+49,30000000,High School,Widowed,1
+58,60000000,High School,Divorced,1
+59,75000000,High School,Widowed,1
+40,35000000,Associates,Single,1
+35,45000000,Masters,Widowed,0
+55,110000000,Associates,Widowed,0
+33,95000000,High School,Single,0
+32,115000000,Associates,Single,0
+39,75000000,High School,Divorced,0
+27,95000000,Bachelors,Divorced,1
+33,40000000,Bachelors,Widowed,1
+33,40000000,High School,Divorced,0
+42,105000000,High School,Married,1
+47,55000000,Bachelors,Single,0
+27,110000000,High School,Widowed,1
+37,60000000,Associates,Married,1
+45,95000000,Associates,Divorced,0
+48,45000000,Masters,Widowed,0
+43,85000000,Associates,Divorced,1
+55,85000000,High School,Single,1
+51,115000000,Masters,Single,0
+48,35000000,Associates,Widowed,1
+29,80000000,High School,Single,0
+26,50000000,Bachelors,Single,0
+33,50000000,High School,Divorced,0
+60,35000000,High School,Widowed,1
+22,35000000,Associates,Single,0
+56,75000000,Masters,Divorced,1
+45,50000000,High School,Single,1
+49,120000000,Bachelors,Widowed,1
+31,105000000,High School,Widowed,0
+58,100000000,High School,Married,1
+22,30000000,Bachelors,Married,1
+59,100000000,High School,Married,1
+38,85000000,Bachelors,Single,1
+26,95000000,Masters,Divorced,0
+42,70000000,Masters,Widowed,0
+33,95000000,High School,Single,1
+42,75000000,High School,Widowed,1
+49,85000000,Associates,Single,0
+60,70000000,High School,Widowed,1
+59,60000000,High School,Married,1
+53,50000000,Associates,Single,0
+21,75000000,Bachelors,Single,1
+25,120000000,Associates,Married,0
+46,115000000,High School,Single,0
+52,45000000,Masters,Single,1
+20,40000000,Bachelors,Married,1
+32,65000000,Masters,Single,1
+35,45000000,Masters,Married,1
+57,75000000,Associates,Single,0
+48,65000000,Associates,Widowed,1
+21,120000000,Masters,Divorced,0
+58,85000000,Masters,Widowed,1
+56,60000000,Bachelors,Divorced,1
+23,90000000,Masters,Divorced,0
+37,40000000,Bachelors,Married,1
+40,45000000,Masters,Widowed,1
+51,90000000,High School,Married,1
+28,30000000,Associates,Widowed,1
+48,35000000,Masters,Widowed,1
+22,55000000,High School,Divorced,1
+54,70000000,High School,Married,0
+42,115000000,Masters,Married,0
+58,70000000,High School,Single,0
+23,55000000,Bachelors,Single,1
+42,35000000,Associates,Widowed,1
+58,115000000,Associates,Single,1
+28,105000000,Masters,Married,1
+53,120000000,Masters,Married,0
+43,70000000,Bachelors,Widowed,1
+20,70000000,Associates,Married,0
+58,75000000,Associates,Widowed,1
+37,35000000,Associates,Widowed,0
+31,100000000,Bachelors,Widowed,1
+33,45000000,Masters,Single,1
+53,50000000,Masters,Divorced,1
+20,40000000,Bachelors,Single,0
+53,95000000,Associates,Married,1
+36,90000000,Masters,Single,1
+21,115000000,Associates,Widowed,0
+60,120000000,Associates,Divorced,0
+43,80000000,Masters,Single,1
+27,95000000,Bachelors,Single,1
+21,110000000,Bachelors,Single,0
+37,50000000,Masters,Married,1
+35,110000000,High School,Divorced,0
+48,110000000,Bachelors,Single,0
+56,110000000,Associates,Widowed,1
+36,50000000,Associates,Married,1
+30,55000000,Bachelors,Widowed,0
+31,30000000,High School,Widowed,0
+56,30000000,High School,Married,1
+28,40000000,Masters,Married,0
+21,60000000,Masters,Divorced,1
+23,105000000,Bachelors,Widowed,0
+41,70000000,High School,Single,1
+55,45000000,High School,Divorced,0
+55,100000000,Bachelors,Divorced,0
+52,100000000,Associates,Married,0
+39,40000000,Associates,Married,1
+40,30000000,Bachelors,Divorced,0
+38,115000000,Bachelors,Widowed,0
+55,80000000,Masters,Married,1
+43,80000000,Associates,Married,0
+36,45000000,Masters,Married,1
+30,50000000,High School,Married,0
+48,60000000,Masters,Single,0
+45,50000000,Associates,Widowed,0
+20,70000000,High School,Divorced,1
+22,40000000,Masters,Widowed,0
+48,95000000,Associates,Single,0
+56,45000000,Bachelors,Divorced,0
+39,95000000,Bachelors,Married,1
+37,75000000,High School,Widowed,0
+22,80000000,Masters,Widowed,0
+47,80000000,Associates,Single,0
+44,60000000,Masters,Divorced,1
+30,65000000,Bachelors,Divorced,0
+52,110000000,Bachelors,Divorced,1
+24,100000000,Associates,Married,0
+57,60000000,Masters,Widowed,1
+56,40000000,Associates,Married,0
+23,115000000,Associates,Single,1
+31,35000000,High School,Widowed,0
+44,80000000,Bachelors,Single,0
+46,110000000,Masters,Divorced,1
+56,55000000,Masters,Married,0
+42,95000000,Masters,Widowed,0
+23,95000000,Masters,Married,0
+34,45000000,Masters,Married,0
+42,60000000,Masters,Widowed,1
+39,80000000,Bachelors,Married,0
+59,90000000,Bachelors,Widowed,1
+27,55000000,High School,Divorced,1
+37,95000000,Masters,Single,0
+37,95000000,Masters,Married,1
+43,85000000,Masters,Divorced,0
+41,105000000,Masters,Divorced,0
+60,115000000,Associates,Widowed,0
+59,65000000,High School,Single,1
+37,40000000,High School,Widowed,1
+53,85000000,Associates,Single,1
+31,80000000,High School,Married,0
+37,110000000,High School,Widowed,1
+23,45000000,Associates,Widowed,1
+30,85000000,High School,Married,1
+48,60000000,Associates,Married,0
+35,35000000,Masters,Single,0
+37,85000000,Bachelors,Single,0
+60,100000000,Bachelors,Widowed,0
+23,30000000,Masters,Single,1
+39,85000000,Masters,Single,1
+32,105000000,Associates,Divorced,0
+35,95000000,Masters,Divorced,1
+30,30000000,Bachelors,Divorced,0
+24,30000000,Masters,Single,0
+51,115000000,Masters,Widowed,0
+25,60000000,Associates,Married,1
+53,115000000,Bachelors,Married,1
+53,35000000,Associates,Married,0
+27,45000000,Bachelors,Married,0
+41,50000000,Associates,Widowed,0
+47,85000000,Associates,Married,0
+56,120000000,Associates,Married,1
+40,75000000,High School,Divorced,0
+40,105000000,Bachelors,Divorced,0
+41,85000000,Masters,Divorced,1
+38,120000000,Masters,Single,1
+50,80000000,High School,Divorced,0
+58,40000000,Associates,Widowed,0
+27,60000000,High School,Single,1
+51,35000000,Associates,Divorced,0
+39,85000000,High School,Single,0
+56,120000000,Associates,Single,1
+35,100000000,Masters,Married,1
+38,90000000,Bachelors,Single,0
+58,35000000,Bachelors,Single,0
+35,65000000,Associates,Single,1
+59,120000000,Bachelors,Single,0
+35,40000000,Bachelors,Married,1
+22,75000000,Associates,Widowed,0
+37,80000000,Bachelors,Widowed,0
+38,95000000,High School,Widowed,1
+22,85000000,Associates,Widowed,0
+27,65000000,High School,Married,1
+29,90000000,Associates,Single,1
+43,90000000,High School,Widowed,1
+26,65000000,Associates,Married,1
+39,60000000,High School,Single,1
+35,115000000,High School,Divorced,0
+47,35000000,Bachelors,Single,0
+42,110000000,Associates,Single,0
+34,70000000,Masters,Divorced,0
+35,110000000,Masters,Widowed,0
+56,120000000,Bachelors,Married,1
+25,65000000,Associates,Married,1
+31,100000000,Associates,Married,1
+30,35000000,Associates,Widowed,0
+25,70000000,Bachelors,Single,0
+37,55000000,Masters,Single,1
+28,105000000,Bachelors,Widowed,0
+51,105000000,Associates,Widowed,1
+55,45000000,Masters,Married,0
+22,50000000,High School,Married,1
+56,95000000,Bachelors,Divorced,1
+24,110000000,Associates,Widowed,0
+35,90000000,Associates,Married,0
+22,95000000,Masters,Single,0
+22,95000000,Associates,Widowed,0
+56,30000000,Bachelors,Single,1
+38,85000000,Associates,Divorced,0
+20,110000000,Bachelors,Widowed,1
+58,55000000,Associates,Married,1
+44,75000000,Associates,Divorced,1
+23,55000000,High School,Divorced,0
+54,110000000,Masters,Divorced,1
+43,80000000,Bachelors,Married,0
+54,60000000,High School,Divorced,1
+31,100000000,Masters,Single,0
+47,40000000,High School,Widowed,1
+21,70000000,Bachelors,Divorced,1
+44,45000000,Bachelors,Single,1
+58,30000000,Associates,Married,1
+60,120000000,Masters,Divorced,0
+29,75000000,High School,Divorced,0
+29,30000000,Masters,Divorced,1
+49,35000000,High School,Widowed,0
+41,60000000,Bachelors,Divorced,0
+35,70000000,High School,Widowed,0
+59,35000000,Masters,Divorced,1
+40,45000000,Masters,Widowed,0
+52,50000000,High School,Single,0
+50,85000000,Associates,Married,1
+30,45000000,Masters,Single,1
+25,30000000,Bachelors,Divorced,0
+51,50000000,Associates,Widowed,1
+26,90000000,Bachelors,Widowed,0
+35,90000000,High School,Single,1
+21,75000000,Bachelors,Widowed,1
+38,85000000,Bachelors,Single,0
+26,35000000,Associates,Divorced,1
+36,80000000,Bachelors,Divorced,1
+31,40000000,Masters,Divorced,0
+32,110000000,Masters,Divorced,0
+35,90000000,Bachelors,Widowed,0
+41,85000000,Masters,Single,1
+21,60000000,Masters,Widowed,0
+52,105000000,Masters,Single,0
+27,35000000,High School,Married,1
+40,50000000,Associates,Married,1
+39,105000000,Bachelors,Married,1
+21,95000000,Masters,Widowed,0
+52,45000000,Masters,Single,0
+51,70000000,Associates,Widowed,1
+35,45000000,Masters,Divorced,0
+33,75000000,Masters,Widowed,0
+41,110000000,High School,Single,0
+33,50000000,Bachelors,Single,0
+20,110000000,High School,Single,0
+40,45000000,Bachelors,Single,0
+21,95000000,Bachelors,Married,0
+47,105000000,Associates,Widowed,0
+25,90000000,Masters,Divorced,1
+51,120000000,Associates,Divorced,0
+60,80000000,High School,Divorced,0
+32,90000000,Bachelors,Married,0
+53,60000000,High School,Divorced,1
+22,75000000,Associates,Divorced,0
+52,105000000,Bachelors,Married,0
+24,65000000,High School,Married,0
+59,60000000,Bachelors,Divorced,1
+60,65000000,Bachelors,Single,1
+27,115000000,Associates,Widowed,1
+26,90000000,Masters,Divorced,0
+30,55000000,Masters,Married,1
+38,65000000,High School,Single,0
+48,70000000,High School,Married,1
+48,50000000,Bachelors,Single,1
+40,30000000,Bachelors,Widowed,0
+33,40000000,High School,Widowed,0
+26,120000000,Masters,Married,0
+20,30000000,Associates,Married,1
+30,65000000,Bachelors,Widowed,0
+49,70000000,High School,Widowed,1
+41,50000000,Associates,Widowed,0
+23,85000000,Bachelors,Single,1
+29,60000000,High School,Widowed,0
+20,50000000,High School,Married,0
+39,90000000,Masters,Married,0
+53,75000000,High School,Married,0
+45,50000000,High School,Married,0
+34,110000000,Associates,Married,0
+49,110000000,Associates,Widowed,1
+46,65000000,Associates,Widowed,0
+54,90000000,Bachelors,Married,0
+42,55000000,Masters,Widowed,1
+59,40000000,Associates,Married,0
+31,65000000,Associates,Divorced,0
+53,80000000,Bachelors,Widowed,0
+25,55000000,Bachelors,Divorced,1
+25,110000000,Masters,Single,0
+30,115000000,Masters,Widowed,1
+22,75000000,Associates,Single,1
+37,110000000,Masters,Single,1
+42,35000000,Associates,Married,0
+22,110000000,Masters,Widowed,0
+57,35000000,Masters,Widowed,1
+56,110000000,Associates,Widowed,0
+50,110000000,Associates,Divorced,0
+48,35000000,High School,Widowed,1
+50,110000000,Masters,Single,0
+20,90000000,High School,Married,0
+36,40000000,Bachelors,Single,1
+38,40000000,Masters,Widowed,1
+29,60000000,Masters,Married,0
+51,90000000,Bachelors,Married,1
+39,95000000,Associates,Married,1
+41,60000000,High School,Divorced,1
+45,65000000,Associates,Single,1
+46,110000000,High School,Single,0
+21,100000000,Masters,Single,1
+47,30000000,Masters,Widowed,1
+27,65000000,Bachelors,Divorced,1
+34,60000000,High School,Single,1
+34,75000000,Masters,Married,1
+58,40000000,Associates,Widowed,0
+39,45000000,Masters,Single,0
+49,95000000,Masters,Single,1
+60,70000000,High School,Widowed,1
+59,60000000,Bachelors,Divorced,0
+57,70000000,Associates,Single,1
+33,70000000,High School,Single,1
+43,65000000,High School,Single,0
+35,40000000,Bachelors,Widowed,0
+24,110000000,Associates,Widowed,0
+46,120000000,High School,Married,1
+57,100000000,Bachelors,Married,1
+32,80000000,Masters,Widowed,1
+28,70000000,Associates,Widowed,0
+25,115000000,Masters,Single,0
+24,45000000,High School,Divorced,1
+28,105000000,Bachelors,Divorced,0
+59,115000000,High School,Single,0
+46,30000000,High School,Widowed,0
+32,30000000,High School,Single,0
+44,120000000,Masters,Divorced,1
+40,85000000,Masters,Widowed,0
+52,85000000,Masters,Married,0
+44,60000000,Bachelors,Divorced,1
+29,120000000,Associates,Widowed,0
+41,80000000,Masters,Married,0
+27,40000000,Masters,Single,1
+54,85000000,Associates,Widowed,1
+36,30000000,Masters,Single,1
+23,55000000,Masters,Married,1
+22,80000000,Associates,Divorced,1
+41,60000000,Masters,Married,0
+40,40000000,Masters,Married,1
+25,40000000,Masters,Married,0
+21,70000000,Associates,Married,0
+39,40000000,Bachelors,Divorced,1
+42,65000000,Associates,Married,0
+44,70000000,Associates,Married,1
+38,75000000,Associates,Married,1
+30,90000000,High School,Divorced,1
+32,60000000,Bachelors,Married,0
+47,95000000,Masters,Single,0
+55,45000000,Bachelors,Single,0
+25,110000000,Masters,Married,1
+37,30000000,High School,Divorced,0
+56,105000000,Masters,Single,1
+45,60000000,Bachelors,Widowed,0
+26,110000000,High School,Married,1
+26,65000000,Bachelors,Divorced,0
+29,30000000,Masters,Widowed,0
+45,115000000,Bachelors,Single,0
+43,90000000,Associates,Married,0
+35,80000000,Masters,Widowed,0
+49,105000000,High School,Widowed,1
+55,50000000,Masters,Widowed,1
+23,60000000,Masters,Single,1
+20,110000000,Associates,Divorced,0
+28,120000000,Masters,Married,1
+48,40000000,Associates,Divorced,1
+52,90000000,Bachelors,Widowed,1
+24,35000000,High School,Divorced,1
+45,30000000,High School,Widowed,0
+39,110000000,High School,Married,0
+30,45000000,Bachelors,Divorced,0
+37,95000000,Associates,Widowed,1
+33,30000000,Masters,Married,0
+35,100000000,High School,Married,0
+34,50000000,Bachelors,Divorced,1
+56,55000000,Masters,Married,0
+52,115000000,High School,Single,0
+37,35000000,Bachelors,Married,1
+24,110000000,Associates,Widowed,1
+42,120000000,High School,Single,0
+40,75000000,High School,Widowed,0
+29,70000000,Masters,Divorced,1
+43,50000000,Bachelors,Married,0
+42,30000000,Masters,Married,1
+52,65000000,Associates,Married,1
+46,95000000,Associates,Single,1
+50,50000000,Associates,Single,0
+29,40000000,Associates,Married,0
+47,105000000,Masters,Married,0
+39,50000000,Masters,Widowed,0
+49,115000000,Bachelors,Single,0
+32,115000000,Masters,Divorced,1
+24,80000000,Bachelors,Single,0
+42,85000000,High School,Widowed,0
+47,75000000,Bachelors,Widowed,0
+56,30000000,Associates,Divorced,1
+52,45000000,Bachelors,Single,1
+28,80000000,High School,Divorced,1
+51,90000000,Associates,Divorced,1
+46,60000000,Associates,Widowed,1
+52,110000000,High School,Widowed,1
+28,60000000,Masters,Divorced,0
+50,45000000,Masters,Married,0
+58,95000000,Associates,Married,1
+35,50000000,Masters,Single,1
+29,40000000,Bachelors,Single,1
+39,30000000,Bachelors,Married,0
+24,95000000,Bachelors,Widowed,0
+57,120000000,Bachelors,Single,1
+36,55000000,Associates,Divorced,1
+39,70000000,Associates,Divorced,1
+55,70000000,Associates,Widowed,0
+51,60000000,High School,Single,0
+22,100000000,Masters,Married,0
+32,50000000,Bachelors,Married,1
+25,90000000,High School,Divorced,0
+38,50000000,Bachelors,Divorced,1
+34,45000000,Masters,Married,1
+22,45000000,Bachelors,Divorced,0
+29,50000000,High School,Divorced,1
+50,105000000,High School,Divorced,0
+48,100000000,Masters,Divorced,1
+57,115000000,Bachelors,Divorced,0
+48,30000000,Masters,Married,1
+22,35000000,Bachelors,Married,1
+25,120000000,Masters,Divorced,0
+27,45000000,Masters,Married,1
+59,70000000,Bachelors,Widowed,1
+27,55000000,Masters,Single,0
+55,80000000,Bachelors,Married,0
+23,105000000,Bachelors,Single,1
+60,40000000,Bachelors,Divorced,0
+27,70000000,High School,Divorced,0
+54,45000000,Associates,Married,1
+48,60000000,High School,Widowed,0
+35,95000000,High School,Widowed,1
+34,120000000,Masters,Widowed,1
+34,90000000,Associates,Married,0
+56,100000000,Associates,Married,0
+42,115000000,High School,Married,1
+60,110000000,High School,Divorced,0
+59,50000000,High School,Divorced,0
+55,50000000,High School,Widowed,1
+41,75000000,Masters,Widowed,1
+29,115000000,Associates,Divorced,0
+40,75000000,Bachelors,Widowed,0
+50,115000000,Associates,Single,1
+46,55000000,Bachelors,Widowed,0
+37,45000000,Associates,Married,0
+58,45000000,High School,Married,0
+27,55000000,High School,Single,0
+28,40000000,High School,Married,1
+40,95000000,Bachelors,Single,1
